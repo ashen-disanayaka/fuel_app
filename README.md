@@ -2,7 +2,7 @@
 
 A new Flutter project mobile application of fuel app.
 
-## discription_of_evelopment : 
+## discription_of_Development : 
 User interface design 
 UI (user interface) design refers to the design of the front-end of a mobile application, specifically how it looks and how the user interacts with it. UX (user experience) design, on the other hand, is concerned with how the user feels while interacting with the application. Both UI and UX design are important considerations when creating a mobile application, as they can greatly affect the usability and appeal of the application.
 Some key considerations for UI design in a mobile application include layout, navigation, and visual design. The layout should be organized in a way that makes it easy for users to find what they are looking for and complete tasks. Navigation should be intuitive and straightforward, with clear labels and hierarchy. Visual design should be visually appealing and consistent, with a cohesive color scheme and typography therefore, yellow color selected for design main base color in this fuel app project.
