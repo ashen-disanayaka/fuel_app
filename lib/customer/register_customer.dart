@@ -29,7 +29,7 @@ class _Register_CustoState extends State<Register_Custo> {
               Expanded(
                 child: Center(
                   child: Padding(
-                    padding: EdgeInsets.only(top: 280),
+                    padding: EdgeInsets.only(top: 290),
                     child: Column(
                       children: [
                         Container(

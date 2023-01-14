@@ -28,7 +28,7 @@ class _Register_operaterState extends State<Register_operater> {
 
             Center(
               child: Padding(
-                padding: EdgeInsets.only(top: 250),
+                padding: EdgeInsets.only(top: 280),
                 child: Column(
                   children: [
                     Container(
