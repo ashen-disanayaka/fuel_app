@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fuel_app/customer/signin_customer.dart';
 
 
 
@@ -229,31 +230,40 @@ class _Register_operaterState extends State<Register_operater> {
                       ),
                     ),
                     SizedBox(height: 20,),
-                    Container(
-                      height: 44,
-                      width: 264,
-                      decoration: BoxDecoration(
-                        color: Color(0xffC17113),
-                        borderRadius: BorderRadius.circular(15),
-                        boxShadow: const [
-                          BoxShadow(
-                            color: Colors.black54,
-                            blurRadius: 4.0,
-                            spreadRadius: 1.5,
-                            offset: Offset(
-                              3,
-                              3,
+                    InkWell(
+                      onHover: (value) {},
+                      onTap: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Signin_customer()),
+                        );
+                      },
+                      child: Container(
+                        height: 44,
+                        width: 264,
+                        decoration: BoxDecoration(
+                          color: Color(0xffC17113),
+                          borderRadius: BorderRadius.circular(15),
+                          boxShadow: const [
+                            BoxShadow(
+                              color: Colors.black54,
+                              blurRadius: 4.0,
+                              spreadRadius: 1.5,
+                              offset: Offset(
+                                3,
+                                3,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      child: const Center(
-                        child: Text('Register',
-                            style: TextStyle(
-                              fontFamily: 'MerriweatherSans',
-                              fontSize: 20,
-                              color: Colors.white,
-                            )),
+                          ],
+                        ),
+                        child: const Center(
+                          child: Text('Register',
+                              style: TextStyle(
+                                fontFamily: 'MerriweatherSans',
+                                fontSize: 20,
+                                color: Colors.white,
+                              )),
+                        ),
                       ),
                     ),
                   ],
